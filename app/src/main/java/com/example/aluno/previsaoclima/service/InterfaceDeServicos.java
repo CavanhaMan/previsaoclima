@@ -1,4 +1,4 @@
-package com.example.aluno.previsaoclima.model;
+package com.example.aluno.previsaoclima.service;
 
 import com.example.aluno.previsaoclima.model.DadosClima;
 import retrofit2.Call;
