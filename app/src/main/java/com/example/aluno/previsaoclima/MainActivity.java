@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onResponse(Call<DadosClima> call, Response<DadosClima> response) {
-                
 
             }
 
