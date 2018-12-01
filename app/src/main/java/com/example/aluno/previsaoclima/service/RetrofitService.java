@@ -1,6 +1,6 @@
 package com.example.aluno.previsaoclima.service;
 
-import com.example.aluno.previsaoclima.model.InterfaceDeServicos;
+import com.example.aluno.previsaoclima.service.InterfaceDeServicos;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
