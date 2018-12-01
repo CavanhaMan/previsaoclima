@@ -8,7 +8,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 
 import com.example.aluno.previsaoclima.model.DadosClima;
-import com.example.aluno.previsaoclima.model.InterfaceDeServicos;
+import com.example.aluno.previsaoclima.service.InterfaceDeServicos;
 import com.example.aluno.previsaoclima.service.RetrofitService;
 import retrofit2.Call;
 import retrofit2.Callback;
