@@ -6,7 +6,7 @@ public class Currently {
 
     private Integer time;
     private String summary;
-    private String icon;
+    private String icon; //ESTE É O ITEM A SER CAPTURADO!
     private Integer nearestStormDistance;
     private Double precipIntensity;
     private Double precipIntensityError;
@@ -26,12 +26,13 @@ public class Currently {
     private Double ozone;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
+    public String getIcon() {return icon;}
+    public void setIcon(String icon) {this.icon = icon;}
+
     public Integer getTime() {return time;}
     public void setTime(Integer time) {this.time = time;}
     public String getSummary() {return summary;}
     public void setSummary(String summary) {this.summary = summary;}
-    public String getIcon() {return icon;}
-    public void setIcon(String icon) {this.icon = icon;}
     public Integer getNearestStormDistance() {return nearestStormDistance;}
     public void setNearestStormDistance(Integer nearestStormDistance) {this.nearestStormDistance = nearestStormDistance;}
     public Double getPrecipIntensity() {return precipIntensity;}

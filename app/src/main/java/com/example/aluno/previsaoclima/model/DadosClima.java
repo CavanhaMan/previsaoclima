@@ -21,7 +21,13 @@ public class DadosClima {
     public void setCurrently(Currently currently) {this.currently = currently;}
     public Integer getOffset() {return offset;}
     public void setOffset(Integer offset) {this.offset = offset;}
-    public Map<String, Object> getAdditionalProperties() {return this.additionalProperties;}
-    public void setAdditionalProperty(String name, Object value) {this.additionalProperties.put(name, value);}
+
+    public Map<String, Object> getAdditionalProperties() {
+        return this.additionalProperties;
+    }
+
+    public void setAdditionalProperty(String name, Object value) {
+        this.additionalProperties.put(name, value);
+    }
 
 }
